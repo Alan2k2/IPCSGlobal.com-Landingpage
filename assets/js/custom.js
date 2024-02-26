@@ -47,6 +47,7 @@ $(function() {
 		$("#login_form").click(function() {
 				$(".social_login").hide();
 				$(".user_login").show();
+        $(".header_title").text('Enquiry');
 				return false;
 		});
 
